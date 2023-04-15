@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Social icons link -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+
+    <!-- Importing font style caveat from web -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+    </style>
+
+    <!-- Icon on the title -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/waiter.png"
+    />
+    <title>Hunger Hunt</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <a href="#" class="logo">
+        <h1>
+          <span class="hunger">Hunger</span><span class="hunt">Hunt</span>
+          <span class="logoimg"><img src="./assets/images/logoimg.png" alt="logo"></span>
+        </h1>
+      </a>
+    
+    <ul>
+      <li class="nav-item">
+        <a href="#about" class="nav-link" id="nav-link">About</a>
+      </li>
+      <li class="nav-item">
+        <a href="#menu" class="nav-link" id="nav-link">Our Menu</a>
+      </li>
+      <li class="nav-item">
+        <a href="#order" class="nav-link" id="nav-link">Order Online</a>
+      </li>
+      <li class="nav-item">
+        <a href="#contact" class="nav-link" id="nav-link">Contact Us</a>
+      </li>
+      </ul>
+
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+
+    <!-- Main section -->
+    <section class="main">
+      <div class="intro-text">
+        <h1>
+          <span class="pickup"> Quick bites made even quicker </span> 
+          <br>
+          <span class="ordernow"> Order Now</span>
+        </h1>
+        <p>
+          Our fast food service offers mouthwatering meals that are freshly<br />
+          prepared and delivered to your doorstep in lightning-fast speeds. 
+        </p>
+        <a class="btn yellow" href="#order">Order Now</a>
+        <a class="btn black" href="#about">Learn More</a>
+      </div>
+      <div class="mainphoto">
+        <img src="./assets/images/drinkburger.png" alt="main photo">
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+      <h3>Look for fast food that's both quick & delicious?</h3>
+      <p>
+        We pride ourselves on using only the freshest ingredients to craft our menu, 
+        which is designed to satisfy even the most insatiable hunger pangs. 
+        Whether you're craving a juicy burger, crispy fries, or a refreshing drink, 
+        our extensive menu has something for everyone.
+      </p>
+      <p>
+        So why settle for mediocre fast food when you can indulge in the mouthwatering 
+        cuisine of Hunger Hunt? Come on in and taste the difference today!
+      </p>
+    </section>
+
+    <!-- Menu gallery -->
+    <section class="menu" id="menu">
+      <h1>Try Our Special Recipes</h1>
+      <div class="items-gallery">
+        <div class="item-container">
+          <a href="./assets/images/burger.png" class="big">
+            <img
+              src="./assets/images/burger.png"
+              alt="burger"
+              title="Cheesy Hamburger"
+            />
+          </a>
+          <span class="name">Cheesy Hamburger</span>
+          <span class="price">$5.25</span>
+        </div>
+  
+        <div class="item-container">
+          <a href="./assets/images/hotdog.png" class="big">
+            <img
+              src="./assets/images/hotdog.png"
+              alt="hotdog"
+              title="Italian Hotdog"
+            />
+          </a>
+            <span class="name">Italian Hotdog</span>
+            <span class="price">$3.15</span>
+        </div>
+  
+        <div class="item-container">
+          <a href="./assets/images/sandwich.png" class="big">
+            <img
+              src="./assets/images/sandwich.png"
+              alt="sandwich"
+              title="Hawaiian Sandwich"
+            />
+          </a>
+            <span class="name">Hawaiian Sandwich</span>
+            <span class="price">$2.10</span>
+        </div>
+          
+        <div class="item-container">
+          <a href="./assets/images/pizza.png" class="big">
+            <img
+              src="./assets/images/pizza.png"
+              alt="pizza"
+              title="Pepperonni Pizza"
+            />
+          </a>
+            <span class="name">Pepperoni Pizza</span>
+            <span class="price">$12.37</span>
+        </div>
+          
+  
+        <div class="item-container">
+          <a href="assets/images/dumplings.png" class="big"
+            ><img
+              src="./assets/images/dumplings.png"
+              alt="dumplings"
+              title="Tibetan Dumplings"
+            />
+          </a>
+            <span class="name">Tibetan Dumplings</span>
+            <span class="price">$4.23</span>
+        </div>
+          
+  
+        <div class="item-container">
+          <a href="./assets/images/taco.png" class="big">
+            <img
+              src="./assets/images/taco.png"
+              alt="tacos"
+              title="Beef Tacos"
+            />
+          </a>
+            <span class="name">Beef Tacos</span>
+            <span class="price">$2.5</span>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+
+    <!-- Order Now Section -->
+    <section class="order" id="order">
+      <div class="recipes"> 
+        <h2>Order Online With Us</h2> 
+          <table width="40%" id="alignment"> 
+            <tr>  
+              <th>Food Items</th> 
+              <th>Price($)</th>
+            </tr> 
+            <tr>
+              <td>McDonald's Big Mac</td> 
+              <td>$3.99</td> 
+            </tr> 
+            <tr>
+              <td>Burger King Whopper</td>
+              <td>$4.49</td> 
+            </tr>
+            <tr> 
+              <td>Wendy's Dave's Single </td> 
+              <td>$4.19</td>
+            </tr> 
+            <tr>  
+              <td>Taco Bell Crunchwrap Supreme</td>
+              <td>$3.99</td> 
+            </tr>  
+            <tr>
+              <td>KFC Original Recipe Chicken Sandwich</td>
+              <td>$3.99</td>
+            </tr>
+            <tr>
+              <td>Subway Footlong Spicy Italian</td>
+              <td>$6.49</td>
+            </tr>
+            <tr>
+              <td>Domino's Large Cheese Pizza</td>
+              <td>$9.99</td>
+            </tr>
+            </tr>
+            <tr>
+              <td>Dunkin' Donuts Bacon, Egg & Cheese Croissant</td>
+              <td>$4.29</td>
+            </tr>
+            <tr>
+              <td>Chick-fil-A Spicy Chicken Sandwich</td>
+              <td>$4.49</td>
+            </tr>
+            <tr>
+              <td>Pizza Hut Large Pepperoni Pizza</td>
+              <td>$12.99</td>
+            </tr>
+          </table>
+        <br>
+        <br>
+      </div>
+    </section>
+    
+
+    <!-- Email subscription -->
+    <div class="sub" id="sub">
+      <h3>Subscribe to our newsletter for updates</h3>
+      <form action="#">
+        <input
+          type="email"
+          name="email"
+          id="email-sub"
+          class="email-sub"
+          required
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+          id="subscribe-btn"
+          class="subscribe-btn"
+        />
+      </form>
+    </div>
+
+    <!-- Social icons -->
+    <section class="contact" id="contact">
+      <h3>Connect with us on Social Media</h3>
+      <div class="social_icons">
+        <a href="https://www.twitter.com"> <ion-icon name="logo-twitter"></ion-icon> </a>
+        <a href="https://www.instagram.com/himynameisanuja/"> <ion-icon name="logo-instagram"></ion-icon> </a>
+        <a href="https://www.facebook.com/"> <ion-icon name="logo-facebook"></ion-icon> </a>
+      </div>
+    </section>
+
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up"
+     ><img
+       src="./assets/images/up-arrow.png"
+       class="icon_up_arrow"
+       alt="up-arrow"/>
+       <!-- js program for functioning of go to top arrow -->
+       <script>
+        const scrollUp = document.querySelector("#scroll-up");
+
+        scrollUp.addEventListener("click", () => {
+          window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+          });
+        });
+       </script>
+    </i>
+
+    <!-- Footer -->
+    <footer>&copy;2023. All Rights Reserved by Hunger Hunt</footer>
+
+    <!-- Ion icons CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>
